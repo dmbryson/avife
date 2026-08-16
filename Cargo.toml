@@ -1,0 +1,12 @@
+[package]
+name = "avife"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.104"
+average = "0.17.0"
+rand = "0.10.2"
+rand_chacha = "0.10.0"
+rand_distr = "0.6.0"
+strum = { version = "0.28.0", features = ["derive"] }
